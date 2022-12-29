@@ -24,10 +24,11 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  * directory.
  */
 public class Robot extends TimedRobot {
+
   // initializing motor controllers
   private final WPI_VictorSPX motorR = new WPI_VictorSPX(1);
   private final WPI_VictorSPX motorIntake = new WPI_VictorSPX(2);
- // private final WPI_VictorSPX motorUnused = new WPI_VictorSPX(3);  
+  private final WPI_VictorSPX motorUnused = new WPI_VictorSPX(3);  
   private final WPI_VictorSPX motorBelt = new WPI_VictorSPX(4);
   private final WPI_VictorSPX motorL = new WPI_VictorSPX(5);
   private final WPI_TalonFX motorExternal = new WPI_TalonFX(0); //Falcon 500
